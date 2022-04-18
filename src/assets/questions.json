@@ -1,0 +1,157 @@
+{
+    "questions": [{
+            "questionText": "Who is the father of HTML?",
+            "options": [{
+                    "text": "Tim Berners-Lee",
+                    "correct": true
+                },
+                {
+                    "text": "Rasmus Lerdorf"
+                },
+                {
+                    "text": "Brendan Eich"
+                },
+                {
+                    "text": "Sergey Brin"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "What is HTML?",
+            "options": [{
+                    "text": "HTML describes the structure of a webpage"
+                },
+                {
+                    "text": "HTML is the standard markup language mainly used to create web pages"
+                },
+                {
+                    "text": "HTML consists of a set of elements that helps the browser how to view the content"
+                },
+                {
+                    "text": "All of the mentioned",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "questionText": "HTML stands for __________",
+            "options": [{
+                    "text": "HyperText Machine Language"
+                },
+                {
+                    "text": "HyperText Markup Language",
+                    "correct": true
+                },
+                {
+                    "text": "HyperText Marking Language"
+                },
+                {
+                    "text": "HighText Marking Language"
+                }
+            ]
+        },
+        {
+            "questionText": "What is the correct syntax of doctype in HTML5?",
+            "options": [{
+                    "text": "<doctype html!>"
+                },
+                {
+                    "text": "<!doctype html>",
+                    "correct": true
+                },
+                {
+                    "text": "<doctype html>"
+                },
+                {
+                    "text": "</doctype html>"
+                }
+            ]
+        },
+        {
+            "questionText": "Which of the following tag is used for inserting the largest heading in HTML?",
+            "options": [{
+                    "text": "<h1>",
+                    "correct": true
+                },
+                {
+                    "text": "heading"
+                },
+                {
+                    "text": "head"
+                },
+                {
+                    "text": "<h6>"
+                }
+            ]
+        },
+        {
+            "questionText": "How do we write comments in HTML?",
+            "options": [{
+                    "text": "</........./>"
+                },
+                {
+                    "text": "<........!>"
+                },
+                {
+                    "text": "</............>"
+                },
+                {
+                    "text": "<!............>",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "questionText": "Which of the following elements in HTML5 defines video or movie content ?",
+            "options": [{
+                    "text": "<audio>"
+                },
+                {
+                    "text": "<video>",
+                    "correct": true
+                },
+                {
+                    "text": "<media>"
+                },
+                {
+                    "text": "<movie>"
+                }
+            ]
+        },
+        {
+            "questionText": "Which element is used for or styling HTML5 layout?",
+            "options": [{
+                    "text": "CSS",
+                    "correct": true
+                },
+                {
+                    "text": "jQuery"
+                },
+                {
+                    "text": "JavaScript"
+                },
+                {
+                    "text": "PHP"
+                }
+            ]
+        },
+        {
+            "questionText": "Which HTML tag is used for making character appearance bold? ",
+            "options": [{
+                    "text": "<b>content</b>",
+                    "correct": true
+                },
+                {
+                    "text": "<br>content</br>"
+                },
+                {
+                    "text": "<u>content</u>"
+                },
+                {
+                    "text": "<i>content</i>"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+<app-header></app-header>
+
+<div class="container bg-light py-5">
+    <h1 class="text-center">Welcome to AngularquizApp!!</h1>
+    <ol>Instructions:
+        <li>There will be total 9 questions</li>
+        <li>You will be having 60secs to answer each question</li>
+        <li>for giving correct answer gives you 10 points</li>
+        <li>for giving incorrect answer gives you -10 points</li>
+        <li>The Examination is Proctored</li>
+        <li>You can able to see the score when the Exam Over</li>
+        <li>Refreshing the page will reset the quiz </li>
+    </ol>
+    <div class="form-group">
+        <!-- <label class="text-center"><h4>Enter Your Registered Mail Id </h4></label> -->
+        <h3 class="text-center">Enter Your Name </h3>
+        <input #name type="text" class="form-control"  placeholder="Enter Your Name " required>
+
+        <h3 class="text-center">Enter Your Registed Mail Id </h3>
+        <input #name type="text" class="form-control"  placeholder="Enter Your Registered mail id " required>
+        <br>
+        <button  class="btn btn-primary btn-lg" routerLink="/question" (click)="startQuiz()" >Start The Quiz!!</button>
+    </div>
+</div>

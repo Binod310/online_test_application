@@ -1,0 +1,25 @@
+<app-header></app-header>
+<mat-card>
+    <h1 class="text-center">Candidate DashBoard</h1>
+    <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Candidate Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Score</th>
+            <th scope="col">Submitted At</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of data">
+  
+            <td scope="row">{{item._id}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.score}}</td>
+            <td>{{item.createdAt}}</td>
+            
+            
+          </tr>
+        </tbody>
+      </table>
+</mat-card>
